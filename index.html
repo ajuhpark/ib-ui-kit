@@ -11,14 +11,21 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: var(--heading-1-default-font-size);
   margin: 4px 2px;
   cursor: pointer;
 }
 
 
-.button1 {background-color: var(--green-500)} /* Green */
-.button2 {background-color: var(--red-500);} /* Darker Red */
+.button1 {
+  background-color: var(--green-500); /* Green */
+  /*font:var(--heading-1-default-bold);*/
+} 
+
+.button2 {
+  background-color: var(--red-500); /* Darker Red */
+  font:var(--body-text-default-bold);
+}
 
 </style>
 </head>
