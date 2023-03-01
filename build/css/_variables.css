@@ -1,13 +1,33 @@
 /**
  * Do not edit directly
- * Generated on Wed, 01 Mar 2023 04:38:08 GMT
+ * Generated on Wed, 01 Mar 2023 05:17:38 GMT
  */
 
 :root {
-  --dropshadow: [object Object];
-  --modal-dropshadow: [object Object];
-  --drop-shadow-dropdown: [object Object];
-  --checkmark-innershadow: [object Object];
+  --dropshadow-color: #b3bececc;
+  --dropshadow-type: dropShadow;
+  --dropshadow-x: 0;
+  --dropshadow-y: 2;
+  --dropshadow-blur: 2;
+  --dropshadow-spread: 0;
+  --modal-dropshadow-color: #00000024;
+  --modal-dropshadow-type: dropShadow;
+  --modal-dropshadow-x: 2;
+  --modal-dropshadow-y: 14;
+  --modal-dropshadow-blur: 24;
+  --modal-dropshadow-spread: 0;
+  --drop-shadow-dropdown-color: #00000029;
+  --drop-shadow-dropdown-type: dropShadow;
+  --drop-shadow-dropdown-x: 0;
+  --drop-shadow-dropdown-y: 1;
+  --drop-shadow-dropdown-blur: 1;
+  --drop-shadow-dropdown-spread: 0;
+  --checkmark-innershadow-color: #919aa459;
+  --checkmark-innershadow-type: innerShadow;
+  --checkmark-innershadow-x: 0;
+  --checkmark-innershadow-y: 2;
+  --checkmark-innershadow-blur: 4;
+  --checkmark-innershadow-spread: 0;
   --font-families-proxima-nova: Proxima Nova;
   --line-heights-0: 46;
   --line-heights-1: 34;
@@ -571,4 +591,5 @@
   --white: #ffffff;
   --black: #060708;
   --accent-color: #3da1ff;
+  --token-set-order-0: global;
 }

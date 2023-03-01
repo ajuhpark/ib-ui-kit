@@ -1,47 +1,107 @@
 {
   "Dropshadow": {
-    "value": {
-      "color": "#b3bececc",
-      "type": "dropShadow",
-      "x": 0,
-      "y": 2,
-      "blur": 2,
-      "spread": 0
+    "color": {
+      "value": "#b3bececc",
+      "type": "color"
     },
-    "type": "boxShadow"
+    "type": {
+      "value": "dropShadow",
+      "type": "type"
+    },
+    "x": {
+      "value": 0,
+      "type": "x"
+    },
+    "y": {
+      "value": 2,
+      "type": "y"
+    },
+    "blur": {
+      "value": 2,
+      "type": "blur"
+    },
+    "spread": {
+      "value": 0,
+      "type": "spread"
+    }
   },
   "modal-dropshadow": {
-    "value": {
-      "color": "#00000024",
-      "type": "dropShadow",
-      "x": 2,
-      "y": 14,
-      "blur": 24,
-      "spread": 0
+    "color": {
+      "value": "#00000024",
+      "type": "color"
     },
-    "type": "boxShadow"
+    "type": {
+      "value": "dropShadow",
+      "type": "type"
+    },
+    "x": {
+      "value": 2,
+      "type": "x"
+    },
+    "y": {
+      "value": 14,
+      "type": "y"
+    },
+    "blur": {
+      "value": 24,
+      "type": "blur"
+    },
+    "spread": {
+      "value": 0,
+      "type": "spread"
+    }
   },
   "dropShadow_dropdown": {
-    "value": {
-      "color": "#00000029",
-      "type": "dropShadow",
-      "x": 0,
-      "y": 1,
-      "blur": 1,
-      "spread": 0
+    "color": {
+      "value": "#00000029",
+      "type": "color"
     },
-    "type": "boxShadow"
+    "type": {
+      "value": "dropShadow",
+      "type": "type"
+    },
+    "x": {
+      "value": 0,
+      "type": "x"
+    },
+    "y": {
+      "value": 1,
+      "type": "y"
+    },
+    "blur": {
+      "value": 1,
+      "type": "blur"
+    },
+    "spread": {
+      "value": 0,
+      "type": "spread"
+    }
   },
   "checkmark_innershadow": {
-    "value": {
-      "color": "#919aa459",
-      "type": "innerShadow",
-      "x": 0,
-      "y": 2,
-      "blur": 4,
-      "spread": 0
+    "color": {
+      "value": "#919aa459",
+      "type": "color"
     },
-    "type": "boxShadow"
+    "type": {
+      "value": "innerShadow",
+      "type": "type"
+    },
+    "x": {
+      "value": 0,
+      "type": "x"
+    },
+    "y": {
+      "value": 2,
+      "type": "y"
+    },
+    "blur": {
+      "value": 4,
+      "type": "blur"
+    },
+    "spread": {
+      "value": 0,
+      "type": "spread"
+    }
   },
   "fontFamilies": {
     "proxima-nova": {
@@ -2448,5 +2508,11 @@
   "Accent color": {
     "value": "#3da1ff",
     "type": "color"
+  },
+  "tokenSetOrder": {
+    "0": {
+      "value": "global",
+      "type": "other"
+    }
   }
 }
