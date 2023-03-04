@@ -4,7 +4,7 @@ const StyleDictionary = require('style-dictionary');
 registerTransforms(StyleDictionary);
 
 const sd = StyleDictionary.extend({
-  source: ['tokens/input.json'],
+  source: ['tokens.json'],
   platforms: {
     js: {
       transformGroup: 'tokens-studio',
@@ -25,7 +25,7 @@ const sd = StyleDictionary.extend({
         'ts/size/lineheight',
         'ts/type/fontWeight',
         'ts/color/hexrgba',
-        'ts/color/modifiers',
+        "ts/color/modifiers",
         'ts/typography/css/shorthand',
         'ts/shadow/shorthand',
         'attribute/cti',
