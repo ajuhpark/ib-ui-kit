@@ -1,32 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link href="build/css/_variables.css" rel="stylesheet"/>
+    <link href="build/css/variables.css" rel="stylesheet"/>
 
 <style>
 .button {
   border: none;
   color: var(--gray-0);
-  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: var(--heading-6-default-size);
-  margin: 4px 2px;
+  font-size: var(--dimension-md);
   cursor: pointer;
+  /*min-width: 80px;*/
 }
 
 
 .button1 {
-  background-color: var(--green-500); /* Green */
-  font-weight:var(--heading-3-bold-font-weight);
-  font-size: var(--heading-3-default-size);
+  background-color: var(--button-primary-background-default); /* Blue */
+  border: 1px solid var(--button-primary-border);
+  border-radius: var(--button-border-radius);
+  font:var(--body-text-default-default);
+  padding:var(--button-padding-small);
 } 
 
 .button2 {
-  background-color: var(--red-500); /* Darker Red */
-  font-weight:var(--body-text-default-bold);
+  color: var(--gray-700);
+  background-color: var(--yellow-400); /* Yellow */
+  border: 1px solid var(--yellow-600);
+  border-radius: 5px;
+  font:var(--body-text-default-default);
 }
+
+.padding-horizontal {
+  padding:0px 8px;
+}
+/*importing Proxima Nova Font Family*/
+@import url('https://fonts.cdnfonts.com/css/proxima-nova-2');
+
 
 </style>
 </head>
@@ -35,8 +46,8 @@
 <h1>The button element - Styled with CSS</h1>
 <p>Change the background color of a button with the background-color property:</p>
 
-<button class="button button1">Green</button>
-<button class="button button2">Blue</button>
+<button class="button button1"><span class=padding-horizontal>Button Text</span></button>
+<button class="button button2">Yellow</button>
 
 </body>
 </html>
