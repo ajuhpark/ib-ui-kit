@@ -28,7 +28,7 @@
       "small": {
         "value": {
           "fontFamily": "Proxima Nova",
-          "fontWeight": "Regular",
+          "fontWeight": "Default",
           "lineHeight": 20,
           "fontSize": 14,
           "letterSpacing": 0,
@@ -42,7 +42,7 @@
       "medium": {
         "value": {
           "fontFamily": "Proxima Nova",
-          "fontWeight": "Regular",
+          "fontWeight": "Default",
           "lineHeight": 24,
           "fontSize": 16,
           "letterSpacing": 0,
@@ -56,7 +56,7 @@
       "large": {
         "value": {
           "fontFamily": "Proxima Nova",
-          "fontWeight": "Regular",
+          "fontWeight": "Default",
           "lineHeight": 26,
           "fontSize": 18,
           "letterSpacing": 0,
@@ -98,33 +98,22 @@
     },
     "padding": {
       "small": {
-        "value": "8 8",
+        "value": "8px 8px",
         "type": "spacing"
       },
       "medium": {
-        "value": "10 10",
+        "value": "8px 10px",
         "type": "spacing"
       },
       "large": {
-        "value": "12 12",
+        "value": "10px 12px",
         "type": "spacing"
       }
     },
-    "textSpacing": {
-      "value": "8 0",
+    "textPaddingHorizontal": {
+      "value": "8px 0px",
       "type": "spacing"
     }
-  },
-  "Dropshadow": {
-    "value": {
-      "color": "#b3bececc",
-      "type": "dropShadow",
-      "x": 0,
-      "y": 2,
-      "blur": 2,
-      "spread": 0
-    },
-    "type": "boxShadow"
   },
   "modal-dropshadow": {
     "value": {
@@ -208,12 +197,12 @@
     }
   },
   "fontWeights": {
-    "regular": {
-      "value": "Regular",
-      "type": "fontWeights"
-    },
     "light": {
       "value": "Light",
+      "type": "fontWeights"
+    },
+    "regular": {
+      "value": "Default",
       "type": "fontWeights"
     },
     "semibold": {
@@ -283,7 +272,7 @@
     "Default": {
       "value": {
         "fontFamily": "Proxima Nova",
-        "fontWeight": "Regular",
+        "fontWeight": "Default",
         "lineHeight": 46,
         "fontSize": 38,
         "letterSpacing": "0%",
@@ -341,7 +330,7 @@
     "Default": {
       "value": {
         "fontFamily": "Proxima Nova",
-        "fontWeight": "Regular",
+        "fontWeight": "Default",
         "lineHeight": 39,
         "fontSize": 27,
         "letterSpacing": "0%",
@@ -399,7 +388,7 @@
     "Default": {
       "value": {
         "fontFamily": "Proxima Nova",
-        "fontWeight": "Regular",
+        "fontWeight": "Default",
         "lineHeight": 34,
         "fontSize": 23,
         "letterSpacing": "0%",
@@ -457,7 +446,7 @@
     "Default": {
       "value": {
         "fontFamily": "Proxima Nova",
-        "fontWeight": "Regular",
+        "fontWeight": "Default",
         "lineHeight": 30,
         "fontSize": 21,
         "letterSpacing": "0%",
@@ -515,7 +504,7 @@
     "Default": {
       "value": {
         "fontFamily": "Proxima Nova",
-        "fontWeight": "Regular",
+        "fontWeight": "Default",
         "lineHeight": 26,
         "fontSize": 18,
         "letterSpacing": 0,
@@ -573,7 +562,7 @@
     "Default": {
       "value": {
         "fontFamily": "Proxima Nova",
-        "fontWeight": "Regular",
+        "fontWeight": "Default",
         "lineHeight": 22,
         "fontSize": 15,
         "letterSpacing": 0,
@@ -631,7 +620,7 @@
     "Default": {
       "value": {
         "fontFamily": "Proxima Nova",
-        "fontWeight": "Regular",
+        "fontWeight": "Default",
         "lineHeight": 20,
         "fontSize": 12,
         "letterSpacing": 0,
@@ -689,7 +678,7 @@
     "Default": {
       "value": {
         "fontFamily": "Proxima Nova",
-        "fontWeight": "Regular",
+        "fontWeight": "Default",
         "lineHeight": 22,
         "fontSize": 14,
         "letterSpacing": 0,
@@ -747,7 +736,7 @@
     "Default": {
       "value": {
         "fontFamily": "Proxima Nova",
-        "fontWeight": "Regular",
+        "fontWeight": "Default",
         "lineHeight": 25,
         "fontSize": 16,
         "letterSpacing": 0,
@@ -805,7 +794,7 @@
     "Default": {
       "value": {
         "fontFamily": "Proxima Nova",
-        "fontWeight": "Regular",
+        "fontWeight": "Default",
         "lineHeight": 17,
         "fontSize": 12,
         "letterSpacing": 0,
@@ -863,7 +852,7 @@
     "Default": {
       "value": {
         "fontFamily": "Proxima Nova",
-        "fontWeight": "Regular",
+        "fontWeight": "Default",
         "lineHeight": 20,
         "fontSize": 14,
         "letterSpacing": 0,
@@ -921,7 +910,7 @@
     "Default": {
       "value": {
         "fontFamily": "Proxima Nova",
-        "fontWeight": "Regular",
+        "fontWeight": "Default",
         "lineHeight": 24,
         "fontSize": 16,
         "letterSpacing": 0,
