@@ -5,36 +5,32 @@
 
 <style>
 .button {
-  border: none;
-  color: var(--gray-0);
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: var(--dimension-md);
   cursor: pointer;
-  /*min-width: 80px;*/
-}
-
-
-.button1 {
-  background-color: var(--button-primary-background-default); /* Blue */
-  border: 1px solid var(--button-primary-border);
   border-radius: var(--button-border-radius);
-  font:var(--body-text-default-default);
-  padding:var(--button-padding-small);
-} 
-
-.button2 {
-  color: var(--gray-700);
-  background-color: var(--yellow-400); /* Yellow */
-  border: 1px solid var(--yellow-600);
-  border-radius: 5px;
-  font:var(--body-text-default-default);
+  min-width: 80px;
 }
 
 .padding-horizontal {
   padding:0px 8px;
 }
+
+.button1 {
+  color: var(--button-color-primary-text); 
+  background-color: var(--button-color-primary-background-default); /* Blue */
+  border: 1px solid var(--button-color-primary-border);
+  font:var(--body-text-default-default);
+  padding:var(--button-padding-small);
+} 
+
+.button2 {
+  color: var(--button-color-secondary-text);
+  background-color: var(--button-color-secondary-background-default); /* Yellow */
+  border: 1px solid var(--button-color-secondary-border);
+  font:var(--body-text-default-default);
+  padding:var(--button-padding-medium);
+}
+
+
 /*importing Proxima Nova Font Family*/
 @import url('https://fonts.cdnfonts.com/css/proxima-nova-2');
 
