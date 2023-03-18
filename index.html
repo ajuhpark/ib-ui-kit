@@ -11,23 +11,25 @@
 }
 
 .padding-horizontal {
-  padding:0px 8px;
+  padding:var(--button-text-padding-horizontal);
 }
 
+/* Primary, Default, Medium */
 .button1 {
-  color: var(--button-color-primary-text); 
-  background-color: var(--button-color-primary-background-default); /* Blue */
-  border: 1px solid var(--button-color-primary-border);
-  font:var(--body-text-default-default);
-  padding:var(--button-padding-small);
+  color: var(--button-color-primary-default-text); 
+  background-color: var(--button-color-primary-default-background); 
+  border: 1px solid var(--button-color-primary-default-border);
+  font:var(--button-text-medium);
+  padding:var(--button-padding-medium);
 } 
 
+/* Secondary, Active, Small */
 .button2 {
-  color: var(--button-color-secondary-text);
-  background-color: var(--button-color-secondary-background-default); /* Yellow */
-  border: 1px solid var(--button-color-secondary-border);
-  font:var(--body-text-default-default);
-  padding:var(--button-padding-medium);
+  color: var(--button-color-secondary-active-text);
+  background-color: var(--button-color-secondary-active-background); /* Secondary */
+  border: 1px solid var(--button-color-secondary-active-border);
+  font:var(--button-text-medium);
+  padding:var(--button-padding-small);
 }
 
 
@@ -40,10 +42,10 @@
 <body>
 
 <h1>The button element - Styled with CSS</h1>
-<p>Change the background color of a button with the background-color property:</p>
+<p>Using variables for different button variations.</p>
 
 <button class="button button1"><span class=padding-horizontal>Button Text</span></button>
-<button class="button button2">Yellow</button>
+<button class="button button2"><span class=padding-horizontal>Button Text</span></button>
 
 </body>
 </html>
