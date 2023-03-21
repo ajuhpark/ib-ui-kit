@@ -193,3 +193,6 @@ Light = 300
 Regular = 400
 Semibold = 600
 Bold = 700
+
+Reinstall the style dictionary transform package
+npm i @tokens-studio/sd-transforms
