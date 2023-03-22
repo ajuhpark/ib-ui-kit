@@ -223,10 +223,10 @@
         "value": {
           "fontFamily": "Proxima Nova",
           "fontWeight": "Regular",
-          "lineHeight": 20,
+          "lineHeight": "20px",
           "fontSize": 14,
-          "letterSpacing": 0,
-          "paragraphSpacing": 0,
+          "letterSpacing": "0%",
+          "paragraphSpacing": "0%",
           "paragraphIndent": "0px",
           "textCase": "none",
           "textDecoration": "none"
@@ -237,10 +237,10 @@
         "value": {
           "fontFamily": "Proxima Nova",
           "fontWeight": "Regular",
-          "lineHeight": 24,
+          "lineHeight": "24px",
           "fontSize": 16,
-          "letterSpacing": 0,
-          "paragraphSpacing": 0,
+          "letterSpacing": "0%",
+          "paragraphSpacing": "0%",
           "paragraphIndent": "0px",
           "textCase": "none",
           "textDecoration": "none"
@@ -251,10 +251,10 @@
         "value": {
           "fontFamily": "Proxima Nova",
           "fontWeight": "Regular",
-          "lineHeight": 26,
+          "lineHeight": "26px",
           "fontSize": 18,
-          "letterSpacing": 0,
-          "paragraphSpacing": 0,
+          "letterSpacing": "0%",
+          "paragraphSpacing": "0%",
           "paragraphIndent": "0px",
           "textCase": "none",
           "textDecoration": "none"
@@ -346,10 +346,10 @@
     },
     "dropShadow": {
       "value": {
-        "x": 0,
-        "y": 2,
-        "blur": 5,
-        "spread": 0,
+        "x": "0px",
+        "y": "2px",
+        "blur": "5px",
+        "spread": "0px",
         "color": "#C1C1C1",
         "type": "dropShadow"
       },
@@ -358,34 +358,34 @@
   },
   "modal-dropshadow": {
     "value": {
+      "x": "2px",
+      "y": "14px",
+      "blur": "24px",
+      "spread": "0px",
       "color": "#00000024",
-      "type": "dropShadow",
-      "x": 2,
-      "y": 14,
-      "blur": 24,
-      "spread": 0
+      "type": "dropShadow"
     },
     "type": "boxShadow"
   },
   "dropShadow_dropdown": {
     "value": {
+      "x": "0px",
+      "y": "1px",
+      "blur": "1px",
+      "spread": "0px",
       "color": "#00000029",
-      "type": "dropShadow",
-      "x": 0,
-      "y": 1,
-      "blur": 1,
-      "spread": 0
+      "type": "dropShadow"
     },
     "type": "boxShadow"
   },
   "checkmark_innershadow": {
     "value": {
+      "x": "0px",
+      "y": "2px",
+      "blur": "4px",
+      "spread": "0px",
       "color": "#919aa459",
-      "type": "innerShadow",
-      "x": 0,
-      "y": 2,
-      "blur": 4,
-      "spread": 0
+      "type": "innerShadow"
     },
     "type": "boxShadow"
   },
@@ -397,43 +397,43 @@
   },
   "lineHeights": {
     "0": {
-      "value": 17,
+      "value": "17px",
       "type": "lineHeights"
     },
     "1": {
-      "value": 20,
+      "value": "20px",
       "type": "lineHeights"
     },
     "2": {
-      "value": 22,
+      "value": "22px",
       "type": "lineHeights"
     },
     "3": {
-      "value": 24,
+      "value": "24px",
       "type": "lineHeights"
     },
     "4": {
-      "value": 25,
+      "value": "25px",
       "type": "lineHeights"
     },
     "5": {
-      "value": 26,
+      "value": "26px",
       "type": "lineHeights"
     },
     "6": {
-      "value": 30,
+      "value": "30px",
       "type": "lineHeights"
     },
     "7": {
-      "value": 34,
+      "value": "34px",
       "type": "lineHeights"
     },
     "8": {
-      "value": 39,
+      "value": "39px",
       "type": "lineHeights"
     },
     "9": {
-      "value": 46,
+      "value": "46px",
       "type": "lineHeights"
     }
   },
@@ -497,15 +497,11 @@
     "0": {
       "value": "0%",
       "type": "letterSpacing"
-    },
-    "1": {
-      "value": 0,
-      "type": "letterSpacing"
     }
   },
   "paragraphSpacing": {
     "0": {
-      "value": 0,
+      "value": "0%",
       "type": "paragraphSpacing"
     }
   },
@@ -514,10 +510,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Regular",
-        "lineHeight": 46,
+        "lineHeight": "46px",
         "fontSize": 38,
         "letterSpacing": "0%",
-        "paragraphSpacing": 0,
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -528,10 +524,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Light",
-        "lineHeight": 46,
+        "lineHeight": "46px",
         "fontSize": 38,
         "letterSpacing": "0%",
-        "paragraphSpacing": 0,
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -542,10 +538,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Semibold",
-        "lineHeight": 46,
+        "lineHeight": "46px",
         "fontSize": 38,
         "letterSpacing": "0%",
-        "paragraphSpacing": 0,
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -556,10 +552,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Bold",
-        "lineHeight": 46,
+        "lineHeight": "46px",
         "fontSize": 38,
         "letterSpacing": "0%",
-        "paragraphSpacing": 0,
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -572,10 +568,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Regular",
-        "lineHeight": 39,
+        "lineHeight": "39px",
         "fontSize": 27,
         "letterSpacing": "0%",
-        "paragraphSpacing": 0,
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -586,10 +582,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Light",
-        "lineHeight": 39,
+        "lineHeight": "39px",
         "fontSize": 27,
         "letterSpacing": "0%",
-        "paragraphSpacing": 0,
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -600,10 +596,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Semibold",
-        "lineHeight": 39,
+        "lineHeight": "39px",
         "fontSize": 27,
         "letterSpacing": "0%",
-        "paragraphSpacing": 0,
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -614,10 +610,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Bold",
-        "lineHeight": 39,
+        "lineHeight": "39px",
         "fontSize": 27,
         "letterSpacing": "0%",
-        "paragraphSpacing": 0,
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -630,10 +626,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Regular",
-        "lineHeight": 34,
+        "lineHeight": "34px",
         "fontSize": 23,
         "letterSpacing": "0%",
-        "paragraphSpacing": 0,
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -644,10 +640,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Light",
-        "lineHeight": 34,
+        "lineHeight": "34px",
         "fontSize": 23,
         "letterSpacing": "0%",
-        "paragraphSpacing": 0,
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -658,10 +654,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Semibold",
-        "lineHeight": 34,
+        "lineHeight": "34px",
         "fontSize": 23,
         "letterSpacing": "0%",
-        "paragraphSpacing": 0,
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -672,10 +668,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Bold",
-        "lineHeight": 34,
+        "lineHeight": "34px",
         "fontSize": 23,
         "letterSpacing": "0%",
-        "paragraphSpacing": 0,
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -688,10 +684,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Regular",
-        "lineHeight": 30,
+        "lineHeight": "30px",
         "fontSize": 21,
         "letterSpacing": "0%",
-        "paragraphSpacing": 0,
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -702,10 +698,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Light",
-        "lineHeight": 30,
+        "lineHeight": "30px",
         "fontSize": 21,
         "letterSpacing": "0%",
-        "paragraphSpacing": 0,
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -716,10 +712,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Semibold",
-        "lineHeight": 30,
+        "lineHeight": "30px",
         "fontSize": 21,
         "letterSpacing": "0%",
-        "paragraphSpacing": 0,
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -730,10 +726,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Bold",
-        "lineHeight": 30,
+        "lineHeight": "30px",
         "fontSize": 21,
         "letterSpacing": "0%",
-        "paragraphSpacing": 0,
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -746,10 +742,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Regular",
-        "lineHeight": 26,
+        "lineHeight": "26px",
         "fontSize": 18,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -760,10 +756,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Light",
-        "lineHeight": 26,
+        "lineHeight": "26px",
         "fontSize": 18,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -774,10 +770,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Semibold",
-        "lineHeight": 26,
+        "lineHeight": "26px",
         "fontSize": 18,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -788,10 +784,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Bold",
-        "lineHeight": 26,
+        "lineHeight": "26px",
         "fontSize": 18,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -804,10 +800,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Regular",
-        "lineHeight": 22,
+        "lineHeight": "22px",
         "fontSize": 15,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -818,10 +814,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Light",
-        "lineHeight": 22,
+        "lineHeight": "22px",
         "fontSize": 15,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -832,10 +828,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Semibold",
-        "lineHeight": 22,
+        "lineHeight": "22px",
         "fontSize": 15,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "capitalize",
         "textDecoration": "none"
@@ -846,10 +842,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Bold",
-        "lineHeight": 22,
+        "lineHeight": "22px",
         "fontSize": 15,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -862,10 +858,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Regular",
-        "lineHeight": 20,
+        "lineHeight": "20px",
         "fontSize": 12,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "uppercase",
         "textDecoration": "none"
@@ -876,10 +872,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Light",
-        "lineHeight": 20,
+        "lineHeight": "20px",
         "fontSize": 12,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "uppercase",
         "textDecoration": "none"
@@ -890,10 +886,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Semibold",
-        "lineHeight": 20,
+        "lineHeight": "20px",
         "fontSize": 12,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -904,10 +900,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Bold",
-        "lineHeight": 20,
+        "lineHeight": "20px",
         "fontSize": 12,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "uppercase",
         "textDecoration": "none"
@@ -920,10 +916,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Regular",
-        "lineHeight": 22,
+        "lineHeight": "22px",
         "fontSize": 14,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "uppercase",
         "textDecoration": "none"
@@ -934,10 +930,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Light",
-        "lineHeight": 22,
+        "lineHeight": "22px",
         "fontSize": 14,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "uppercase",
         "textDecoration": "none"
@@ -948,10 +944,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Semibold",
-        "lineHeight": 22,
+        "lineHeight": "22px",
         "fontSize": 14,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "uppercase",
         "textDecoration": "none"
@@ -962,10 +958,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Bold",
-        "lineHeight": 22,
+        "lineHeight": "22px",
         "fontSize": 14,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "uppercase",
         "textDecoration": "none"
@@ -978,10 +974,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Regular",
-        "lineHeight": 25,
+        "lineHeight": "25px",
         "fontSize": 16,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "uppercase",
         "textDecoration": "none"
@@ -992,10 +988,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Light",
-        "lineHeight": 25,
+        "lineHeight": "25px",
         "fontSize": 16,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "uppercase",
         "textDecoration": "none"
@@ -1006,10 +1002,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Semibold",
-        "lineHeight": 25,
+        "lineHeight": "25px",
         "fontSize": 16,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "uppercase",
         "textDecoration": "none"
@@ -1020,10 +1016,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Bold",
-        "lineHeight": 25,
+        "lineHeight": "25px",
         "fontSize": 16,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "uppercase",
         "textDecoration": "none"
@@ -1036,10 +1032,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Regular",
-        "lineHeight": 17,
+        "lineHeight": "17px",
         "fontSize": 12,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -1050,10 +1046,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Light",
-        "lineHeight": 17,
+        "lineHeight": "17px",
         "fontSize": 12,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -1064,10 +1060,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Semibold",
-        "lineHeight": 17,
+        "lineHeight": "17px",
         "fontSize": 12,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -1078,10 +1074,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Bold",
-        "lineHeight": 17,
+        "lineHeight": "17px",
         "fontSize": 12,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -1094,10 +1090,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Regular",
-        "lineHeight": 20,
+        "lineHeight": "20px",
         "fontSize": 14,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -1108,10 +1104,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Light",
-        "lineHeight": 20,
+        "lineHeight": "20px",
         "fontSize": 14,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -1122,10 +1118,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Semibold",
-        "lineHeight": 20,
+        "lineHeight": "20px",
         "fontSize": 14,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -1136,10 +1132,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Bold",
-        "lineHeight": 20,
+        "lineHeight": "20px",
         "fontSize": 14,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -1152,10 +1148,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Regular",
-        "lineHeight": 24,
+        "lineHeight": "24px",
         "fontSize": 16,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -1166,10 +1162,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Light",
-        "lineHeight": 25,
+        "lineHeight": "25px",
         "fontSize": 16,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -1180,10 +1176,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Semibold",
-        "lineHeight": 25,
+        "lineHeight": "25px",
         "fontSize": 16,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"
@@ -1194,10 +1190,10 @@
       "value": {
         "fontFamily": "Proxima Nova",
         "fontWeight": "Bold",
-        "lineHeight": 25,
+        "lineHeight": "25px",
         "fontSize": 16,
-        "letterSpacing": 0,
-        "paragraphSpacing": 0,
+        "letterSpacing": "0%",
+        "paragraphSpacing": "0%",
         "paragraphIndent": "0px",
         "textCase": "none",
         "textDecoration": "none"

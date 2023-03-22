@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 16 Mar 2023 00:44:27 GMT
+ * Generated on Wed, 22 Mar 2023 00:43:54 GMT
  */
 
 :root {
@@ -62,27 +62,27 @@
   --button-border-width-2: 2px;
   --button-border-width-3: 3px;
   --button-border-width-4: 4px;
-  --button-border-primary: [object Object];
   --button-size-small-icon-height: 14px;
   --button-size-small-icon-width: 14px;
   --button-size-medium-icon-height: 16px;
   --button-size-medium-icon-width: 16px;
   --button-size-large-icon-height: 18px;
   --button-size-large-icon-width: 18px;
-  --modal-dropshadow: 2 14 24 0 #00000024;
-  --drop-shadow-dropdown: 0 1 1 0 #00000029;
-  --checkmark-innershadow: 0 2 4 0 #919aa459;
+  --button-drop-shadow: 0px 2px 5px 0px #C1C1C1;
+  --modal-dropshadow: 2px 14px 24px 0px #00000024;
+  --drop-shadow-dropdown: 0px 1px 1px 0px #00000029;
+  --checkmark-innershadow: 0px 2px 4px 0px #919aa459;
   --font-families-proxima-nova: Proxima Nova;
-  --line-heights-0: 17;
-  --line-heights-1: 20;
-  --line-heights-2: 22;
-  --line-heights-3: 24;
-  --line-heights-4: 25;
-  --line-heights-5: 26;
-  --line-heights-6: 30;
-  --line-heights-7: 34;
-  --line-heights-8: 39;
-  --line-heights-9: 46;
+  --line-heights-0: 17px;
+  --line-heights-1: 20px;
+  --line-heights-2: 22px;
+  --line-heights-3: 24px;
+  --line-heights-4: 25px;
+  --line-heights-5: 26px;
+  --line-heights-6: 30px;
+  --line-heights-7: 34px;
+  --line-heights-8: 39px;
+  --line-heights-9: 46px;
   --font-weights-light: 300;
   --font-weights-default: 400;
   --font-weights-semibold: 600;
@@ -97,8 +97,7 @@
   --font-size-7: 27px;
   --font-size-8: 38px;
   --letter-spacing-0: 0em;
-  --letter-spacing-1: 0;
-  --paragraph-spacing-0: 0;
+  --paragraph-spacing-0: 0%;
   --heading-1-default: 400 38px/46px Proxima Nova;
   --heading-1-light: 300 38px/46px Proxima Nova;
   --heading-1-semibold: 600 38px/46px Proxima Nova;
