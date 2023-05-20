@@ -1698,28 +1698,6 @@
     "value": [
       {
         "x": "0px",
-        "y": "1px",
-        "blur": "3px",
-        "spread": "1px",
-        "color": "#0000004d",
-        "type": "dropShadow"
-      },
-      {
-        "x": "0px",
-        "y": "0px",
-        "blur": "2px",
-        "spread": "0px",
-        "color": "#00000026",
-        "type": "dropShadow"
-      }
-    ],
-    "type": "boxShadow",
-    "description": "Use for: Panels, Cards Minimal"
-  },
-  "elevation-03": {
-    "value": [
-      {
-        "x": "0px",
         "y": "2px",
         "blur": "6px",
         "spread": "2px",
@@ -1738,7 +1716,7 @@
     "type": "boxShadow",
     "description": "Use for: Panels, Cards Subtle"
   },
-  "elevation-04": {
+  "elevation-03": {
     "value": [
       {
         "x": "0px",
@@ -1760,7 +1738,7 @@
     "type": "boxShadow",
     "description": "Use for: Panels, Navigation Bars, Cards Bold"
   },
-  "elevation-05": {
+  "elevation-04": {
     "value": [
       {
         "x": "0px",
@@ -1782,7 +1760,7 @@
     "type": "boxShadow",
     "description": "Use for: Menus"
   },
-  "elevation-06": {
+  "elevation-05": {
     "value": [
       {
         "x": "0px",

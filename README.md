@@ -196,3 +196,4 @@ Bold = 700
 
 Reinstall the style dictionary transform package
 npm i @tokens-studio/sd-transforms
+But don't do this unless I need to because sometimes it won't work well after it updates.
