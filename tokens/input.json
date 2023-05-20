@@ -345,49 +345,18 @@
       }
     },
     "dropShadow": {
-      "value": {
-        "x": "0px",
-        "y": "2px",
-        "blur": "5px",
-        "spread": "0px",
-        "color": "#C1C1C1",
-        "type": "dropShadow"
-      },
+      "value": [
+        {
+          "x": "0px",
+          "y": "1px",
+          "blur": "2px",
+          "spread": "1px",
+          "color": "#00000033",
+          "type": "dropShadow"
+        }
+      ],
       "type": "boxShadow"
     }
-  },
-  "modal-dropshadow": {
-    "value": {
-      "x": "2px",
-      "y": "14px",
-      "blur": "24px",
-      "spread": "0px",
-      "color": "#00000024",
-      "type": "dropShadow"
-    },
-    "type": "boxShadow"
-  },
-  "dropShadow_dropdown": {
-    "value": {
-      "x": "0px",
-      "y": "1px",
-      "blur": "1px",
-      "spread": "0px",
-      "color": "#00000029",
-      "type": "dropShadow"
-    },
-    "type": "boxShadow"
-  },
-  "checkmark_innershadow": {
-    "value": {
-      "x": "0px",
-      "y": "2px",
-      "blur": "4px",
-      "spread": "0px",
-      "color": "#919aa459",
-      "type": "innerShadow"
-    },
-    "type": "boxShadow"
   },
   "fontFamilies": {
     "proxima-nova": {
@@ -1710,6 +1679,130 @@
       "value": 4,
       "type": "borderWidth"
     }
+  },
+  "elevation-01": {
+    "value": [
+      {
+        "x": "0px",
+        "y": "1px",
+        "blur": "2px",
+        "spread": "1px",
+        "color": "#00000033",
+        "type": "dropShadow"
+      }
+    ],
+    "type": "boxShadow",
+    "description": "Use for: Buttons"
+  },
+  "elevation-02": {
+    "value": [
+      {
+        "x": "0px",
+        "y": "1px",
+        "blur": "3px",
+        "spread": "1px",
+        "color": "#0000004d",
+        "type": "dropShadow"
+      },
+      {
+        "x": "0px",
+        "y": "0px",
+        "blur": "2px",
+        "spread": "0px",
+        "color": "#00000026",
+        "type": "dropShadow"
+      }
+    ],
+    "type": "boxShadow",
+    "description": "Use for: Panels, Cards Minimal"
+  },
+  "elevation-03": {
+    "value": [
+      {
+        "x": "0px",
+        "y": "2px",
+        "blur": "6px",
+        "spread": "2px",
+        "color": "#00000026",
+        "type": "dropShadow"
+      },
+      {
+        "x": "0px",
+        "y": "1px",
+        "blur": "2px",
+        "spread": "0px",
+        "color": "#0000004d",
+        "type": "dropShadow"
+      }
+    ],
+    "type": "boxShadow",
+    "description": "Use for: Panels, Cards Subtle"
+  },
+  "elevation-04": {
+    "value": [
+      {
+        "x": "0px",
+        "y": "1px",
+        "blur": "3px",
+        "spread": "0px",
+        "color": "#0000004d",
+        "type": "dropShadow"
+      },
+      {
+        "x": "0px",
+        "y": "4px",
+        "blur": "8px",
+        "spread": "3px",
+        "color": "#00000026",
+        "type": "dropShadow"
+      }
+    ],
+    "type": "boxShadow",
+    "description": "Use for: Panels, Navigation Bars, Cards Bold"
+  },
+  "elevation-05": {
+    "value": [
+      {
+        "x": "0px",
+        "y": "2px",
+        "blur": "3px",
+        "spread": "0px",
+        "color": "#0000004d",
+        "type": "dropShadow"
+      },
+      {
+        "x": "0px",
+        "y": "6px",
+        "blur": "10px",
+        "spread": "4px",
+        "color": "#00000026",
+        "type": "dropShadow"
+      }
+    ],
+    "type": "boxShadow",
+    "description": "Use for: Menus"
+  },
+  "elevation-06": {
+    "value": [
+      {
+        "x": "0px",
+        "y": "4px",
+        "blur": "4px",
+        "spread": "0px",
+        "color": "#0000004d",
+        "type": "dropShadow"
+      },
+      {
+        "x": "0px",
+        "y": "8px",
+        "blur": "12px",
+        "spread": "6px",
+        "color": "#00000026",
+        "type": "dropShadow"
+      }
+    ],
+    "type": "boxShadow",
+    "description": "Use for: Modals"
   },
   "tokenSetOrder": {
     "0": {

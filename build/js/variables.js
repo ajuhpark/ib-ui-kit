@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 22 Mar 2023 00:43:54 GMT
+ * Generated on Fri, 24 Mar 2023 06:42:43 GMT
  */
 
 export const buttonColorPrimaryDefaultBorder = "#106bc1";
@@ -67,10 +67,7 @@ export const buttonSizeMediumIconHeight = "16px";
 export const buttonSizeMediumIconWidth = "16px";
 export const buttonSizeLargeIconHeight = "18px";
 export const buttonSizeLargeIconWidth = "18px";
-export const buttonDropShadow = "0px 2px 5px 0px #C1C1C1";
-export const modalDropshadow = "2px 14px 24px 0px #00000024";
-export const dropShadowDropdown = "0px 1px 1px 0px #00000029";
-export const checkmarkInnershadow = "0px 2px 4px 0px #919aa459";
+export const buttonDropShadow = "0px 1px 2px 1px #00000033";
 export const fontFamiliesProximaNova = "Proxima Nova";
 export const lineHeights0 = "17px";
 export const lineHeights1 = "20px";
@@ -265,5 +262,11 @@ export const borderWidth1 = "1px";
 export const borderWidth2 = "2px";
 export const borderWidth3 = "3px";
 export const borderWidth4 = "4px";
+export const elevation01 = "0px 1px 2px 1px #00000033"; // Use for: Buttons
+export const elevation02 = "0px 1px 3px 1px #0000004d, 0px 0px 2px 0px #00000026"; // Use for: Panels, Cards Minimal
+export const elevation03 = "0px 2px 6px 2px #00000026, 0px 1px 2px 0px #0000004d"; // Use for: Panels, Cards Subtle
+export const elevation04 = "0px 1px 3px 0px #0000004d, 0px 4px 8px 3px #00000026"; // Use for: Panels, Navigation Bars, Cards Bold
+export const elevation05 = "0px 2px 3px 0px #0000004d, 0px 6px 10px 4px #00000026"; // Use for: Menus
+export const elevation06 = "0px 4px 4px 0px #0000004d, 0px 8px 12px 6px #00000026"; // Use for: Modals
 export const tokenSetOrder0 = "global";
 export const tokenSetOrder1 = "buttons";
