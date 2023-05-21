@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 20 May 2023 18:26:40 GMT
+ * Generated on Sun, 21 May 2023 05:10:05 GMT
  */
 
 export const buttonColorPrimaryDefaultBorder = "#106bc1";
@@ -246,8 +246,6 @@ export const colorOrange900 = "#80411d";
 export const colorWhite = "#ffffff";
 export const colorBlack = "#060708";
 export const colorAccentColor = "#3da1ff";
-export const colorBgPrimary = "#dee5ef";
-export const colorBgSecondary = "#ffffff";
 export const padding0 = "0px";
 export const padding1 = "1px";
 export const padding2 = "2px";

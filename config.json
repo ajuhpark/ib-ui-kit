@@ -5,6 +5,7 @@
   "platforms": {
     "css": {
       "transformGroup": "tokens-studio",
+      "prefix": "webmgr-",
       "buildPath": "build/css/",
       "files": [{
         "destination": "_variables.css",

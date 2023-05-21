@@ -1608,16 +1608,6 @@
     "Accent color": {
       "value": "#3da1ff",
       "type": "color"
-    },
-    "bg": {
-      "primary": {
-        "value": "#dee5ef",
-        "type": "color"
-      },
-      "secondary": {
-        "value": "#ffffff",
-        "type": "color"
-      }
     }
   },
   "padding": {
