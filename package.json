@@ -20,6 +20,6 @@
     "style-dictionary": "^3.7.2"
   },
   "dependencies": {
-    "@tokens-studio/sd-transforms": "^0.5.2"
+    "@tokens-studio/sd-transforms": "^0.5.7"
   }
 }
